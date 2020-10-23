@@ -1,0 +1,15 @@
+/* Button Overlay Properties  */
+@import "../config/_colors.scss";
+
+.button-container {
+  border: 1px solid $salmon;
+  border-radius: 20px;
+  color: $salmon;
+  padding: 0.2em 0.3em 0.2em 0.3em;
+  text-align: center;
+}
+
+.button-container:hover {
+  background-color: $salmon;
+  color: #ffffff;
+}
